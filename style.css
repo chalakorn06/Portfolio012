@@ -1,0 +1,165 @@
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #fff1ea;
+            color: #333;
+        }
+        
+        .navbar {
+            background: linear-gradient(45deg, rgba(10,10,10,1) 0%, rgba(30,30,30,1) 100%) !important;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.288);
+        }
+        
+        .navbar-brand {
+            color: #f26423 !important;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #f26423 !important;
+        }
+        
+        .navbar-nav .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background-color: #f26423;
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+        
+        .navbar-nav .nav-link:hover::after {
+            width: 100%;
+            left: 0;
+        }
+        
+        .navbar-toggler {
+            border: none;
+        }
+        
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        
+        .carousel-item {
+            height: 500px;
+        }
+        
+        .carousel-item img {
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .carousel-caption {
+            background: rgba(0,0,0,0.6);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .carousel-caption h5 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #f26423;
+        }
+        
+        .carousel-caption p {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(242, 100, 35, 0.2);
+        }
+        
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .card-title {
+            color: #f26423;
+            font-weight: 700;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(45deg, #f26423, #ff8c57);
+            border: none;
+            border-radius: 25px;
+            padding: 10px 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(45deg, #ff8c57, #f26423);
+            transform: translateY(-2px);
+        }
+        
+        .form-control {
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 12px 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-control:focus {
+            border-color: #f26423;
+            box-shadow: 0 0 0 0.2rem rgba(242, 100, 35, 0.25);
+        }
+        
+        .form-label {
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        #home {
+            background: #fff;
+        }
+        
+        #projects {
+            background: #f8f9fa;
+        }
+        
+        #contact {
+            background: #fff;
+        }
+        
+        .section-header {
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+        
+        .section-header.text-orange {
+            color: #f26423;
+        }
+        
+        footer {
+            background: linear-gradient(45deg, rgba(10,10,10,1) 0%, rgba(30,30,30,1) 100%);
+            color: #fff;
+            padding: 30px 0;
+        }

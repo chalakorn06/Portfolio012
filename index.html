@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chalakorn - Portfolio</title>
+    <link rel="icon" href="img/icon_chalakorn.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Chalakorn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home">
+            <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner_1.png" class="d-block w-100" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>👋 Hello World!</h5>
+                            <p>I'm Chalakorn Sunthoranan CNS.4/1 012</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner_2.png" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Programming Skills</h5>
+                            <p>สามารถเขียน Front-end, PHP ได้ในระดับหนึ่ง</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner_3.jpeg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Education✨</h5>
+                            <p>จาก วิทยาลัยเทคนิคสัตหีบ ระดับปวส.สาขาวิชาเครือข่ายคอมพิวเตอร์และความปลอดภัย</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="text-center section-header text-orange">ผลงาน</h2>
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/img_1.JPG" class="card-img-top" alt="Web Development Project">
+                            <div class="card-body">
+                                <h5 class="card-title">ได้รับรางวัลรองชนะเลิศอันดับที่ 2</h5>
+                                <p class="card-text">การแข่งขันทักษะวิชาชีพทักษะการเขียนโปรแกรมควบคุมอุปกรณ์ IoT ระดับ ปวช.</p>
+                                <a href="#" class="btn btn-primary">ดูโปรเจกต์</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/img_2.jpg" class="card-img-top" alt="Web Development Project">
+                            <div class="card-body">
+                                <h5 class="card-title">ได้รับรางวัลชนะเลิศเหรียญเงิน</h5>
+                                <p class="card-text">การประกวดนวัตกรรมสิ่งประดิษฐ์ สาขาพลังงาน ที่มหาวิทยาลัยบูรพา</p>
+                                <a href="#" class="btn btn-primary">ดูโปรเจกต์</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/img_3.png" class="card-img-top" alt="Web Development Project">
+                            <div class="card-body">
+                                <h5 class="card-title">ทำเพจ NewsIT</h5>
+                                <p class="card-text">แจ้งข่าวสารในแผนกไอทีวิทยาลัยเทคนิคสัตหีบ ทั้งแพลตฟอร์ท facebook และ IG</p>
+                                <a href="#" class="btn btn-primary">ดูโปรเจกต์</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="text-center section-header text-orange">ติดต่อเรา</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="firstName" class="form-label">ชื่อ</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="lastName" class="form-label">นามสกุล</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">อีเมล</label>
+                                <input type="email" class="form-control" id="email" placeholder="example@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">ข้อความ</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="เขียนข้อความของคุณที่นี่..." required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">
+                                    <i class="fas fa-paper-plane me-2"></i>ส่งข้อความ
+                                </button>
+                            </div>
+                        </form>
+                        
+
+                        <div class="text-center mt-5">
+                            <h4 class="text-orange mb-4">ช่องทางการติดต่ออื่นๆ</h4>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-envelope text-orange me-3 fs-4"></i>
+                                        <a href="mailto:noicelyletyoudown@gmail.com" class="text-decoration-none text-dark">
+                                            noicelyletyoudown@gmail.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="d-flex align-items-center justify-content-center flex-wrap gap-3">
+                                        <a href="https://www.instagram.com/nc_ieypo/" target="_blank" class="btn btn-outline-primary btn-sm">
+                                            <i class="fab fa-instagram me-1"></i>Instagram
+                                        </a>
+                                        <a href="https://www.facebook.com/chalakorn.sunthoranan" target="_blank" class="btn btn-outline-primary btn-sm">
+                                            <i class="fab fa-facebook-f me-1"></i>Facebook
+                                        </a>
+                                        <a href="https://github.com/Noicelys" target="_blank" class="btn btn-outline-primary btn-sm">
+                                            <i class="fab fa-github me-1"></i>GitHub
+                                        </a>
+                                        <a href="https://www.tiktok.com/@noicelys" target="_blank" class="btn btn-outline-primary btn-sm">
+                                            <i class="fab fa-tiktok me-1"></i>TikTok
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; <span id="year"></span> Chalakorn.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                    const targetPosition = target.offsetTop - navbarHeight;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbar = document.querySelector('.navbar-collapse');
+                if (navbar.classList.contains('show')) {
+                    const bsCollapse = new bootstrap.Collapse(navbar, {
+                        toggle: false
+                    });
+                    bsCollapse.hide();
+                }
+            });
+        });
+        
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+        
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            if (firstName && lastName && email && message) {
+                alert(`ขอบคุณ ${firstName} ${lastName} สำหรับข้อความของคุณ!\n\nเราจะตอบกลับไปยัง ${email} ในเร็วๆ นี้`);
+                
+                this.reset();
+            } else {
+                alert('กรุณากรอกข้อมูลให้ครบถ้วน');
+            }
+        });
+        
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            
+            let currentSection = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + currentSection) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
